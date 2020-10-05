@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.contentLogin {
+ width: 450px;
+ height: 200px;
+ background-color: black;
+ color: white;
+}
+
+.btnLogin {
+  background-color: turquoise;
+  color: azure;
+}
+
+.btnReset {
+  background-color: brown;
+  color: white;
+}
