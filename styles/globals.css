@@ -28,6 +28,15 @@ a {
   height: 30px;
   width: 100px;
 }
+
+
+
+.btnReset {
+  background-color: brown;
+  color: white;
+}
+
+
 input {
   height: 30px;
   border-radius: 3px;
@@ -45,12 +54,5 @@ select {
   border-radius: 3px;
   font-weight: bold;
 }
-
-
-.btnReset {
-  background-color: brown;
-  color: white;
-}
-
 
 

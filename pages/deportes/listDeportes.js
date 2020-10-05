@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import styles from "../../styles/Home.module.css";
 
 // deportess will be populated at build time by getStaticProps()
-function listDeporte({ deportes }) {
+function listDeportes({ deportes }) {
   return (
     <Fragment>
       <h2 align="center">Listado de deportes</h2>
@@ -38,4 +38,4 @@ export async function getStaticProps() {
   };
 }
 
-export default listDeporte;
+export default listDeportes;

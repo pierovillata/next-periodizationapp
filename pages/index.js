@@ -1,18 +1,24 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Navegacion from "./principal/navegacion";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-       
-        <title>Periodization APP</title>
-        <link rel="icon" href="/favicon.ico" />
+      
+      <div className={styles.header}>     
+        <h2>PeriodizationAPP 3.0</h2> 
+       <Navegacion></Navegacion>
+        <div className={styles.login}><a href="/login"> Login</a></div>       
+      </div>
+     
         
       </Head>
-
+     
       <main className={styles.main}>
-      <div className={styles.login}><a href="/login">Login</a></div>
+     
+      <navBar></navBar>
         <h1 className={styles.title}>Welcome to Periodization APP</h1>
 
         <p className={styles.description}>Periodization al alcance de todos</p>

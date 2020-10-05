@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function entrenador() {
+export default function listEntrenadores() {
     return (
         <div>
             <p>Listado de entrenadores</p>
