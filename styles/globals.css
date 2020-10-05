@@ -23,24 +23,34 @@ a {
 }
 
 .btnLogin {
-  background-color: turquoise;
+  background-color: rgb(85, 231, 80);
   color: azure;
+  height: 30px;
+  width: 100px;
 }
+input {
+  height: 30px;
+  border-radius: 3px;
+  
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+select {
+  height: 30px;
+  width: fit-content;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
 
 .btnReset {
   background-color: brown;
   color: white;
 }
 
-.card {
-  width: 100px;
-  height: 100px;
-  color: white;
-  font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: cadetblue;
-  border-color: aquamarine;
-  border-radius: 2px;
-  align-items: center;
-  vertical-align: middle;
-}
+
+

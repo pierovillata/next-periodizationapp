@@ -10,7 +10,7 @@ export default function principal() {
       <h1>Bienvenido a PeriodizationAPP</h1>
 
       <div className={styles.grid}>
-        <a href="/deporte" className={styles.card}>
+        <a href="/deportes/listDeporte" className={styles.card}>
           <h3>Deportes &rarr;</h3>
           <p>Ver el listado de deportes.</p>
         </a>

@@ -1,64 +1,48 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+       
         <title>Periodization APP</title>
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Periodization APP
-        </h1>
+      <div className={styles.login}><a href="/login">Login</a></div>
+        <h1 className={styles.title}>Welcome to Periodization APP</h1>
 
-        <p className={styles.description}>
-           Periodization al alcance de todos
-        </p>
+        <p className={styles.description}>Periodization al alcance de todos</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/periodization" className={styles.card}>
+            <h3>Periodization APP &rarr;</h3>
+            <p>Entrenamiento inteligente para  en deportes de endurance.</p>
           </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/registrarse" className={styles.card}>
+            <h3>Comienza ya! &rarr;</h3>
+            <p>Registrate y comienza a planificar de manera inteligente.</p>
           </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.youtube.com/channel/UC-Yo0U9gtC8dq2dTizQsmqQ?view_as=subscriber" className={styles.card}>
+            <h3>Youtube Chanel &rarr;</h3>
+            <p>Canal de entrenamiento deportivo y planificación.</p>
           </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+         
+          <a href="/docs/glosario" className={styles.card}>
+            <h3>Documentacion &rarr;</h3>
+            <p>Ayuda para entender y aplicar conceptos de periodización.</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        <a href="/">
+          <b>Producido por Piero Villata WEBSYSNET</b>
         </a>
       </footer>
     </div>
-  )
+  );
 }
