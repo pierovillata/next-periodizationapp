@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import styles from '../styles/Home.module.css'
 
 export default class login extends Component {
   render() {
     return (
-      <div className="contentLogin">
+      <div className={styles.card} >
         <h1>Inicio de sesion</h1>
         <form>
           <div>
